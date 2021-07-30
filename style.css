@@ -17,8 +17,11 @@
   margin:0px;
 }
 
+#sign in{
+  padding:0 5px 0 5px;
+}
+
 a{
-  text-decoration: none;
   color:black;
   padding:4px;
 }
@@ -42,15 +45,37 @@ a:hover{
 .search-bar{
   text-align: center;
   position: relative;
-  padding-top:150px;
   margin:auto;
+  width:50%;
+  padding-top:150px;
+  background-color: transparent;
 }
+
+#input_img1{
+   position: absolute;
+   bottom: 2px;
+   left:5px;
+   width:24px;
+   height:24px;
+}
+
+#input_img2{
+  position: absolute;
+  bottom: 2px;
+  right:5px;
+  width:24px;
+  height:24px;
+}
+
  .buttons{
    text-align: center;
    position: relative;
-   padding:10px;
- }
-
+   justify-content: space-between;
+   padding-top:10px;
+   padding-left:auto;
+   padding-right:auto;
+   border-radius:25%;
+}
 
 .footer{
   position: absolute;
